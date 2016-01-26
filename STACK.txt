@@ -1,0 +1,293 @@
+                                  Name:
+Class Activities and Lab - STACKS
+
+**************************************************************************
+Make sure to review the Stacks Lecture found under the Week 3 --> Overview
+**************************************************************************
+
+1. What does LIFO mean?  How does LIFO relate to the data structure, Stacks?
+
+	LIFO stands for last in, first out. This relates to the structure because you are piling things on top of the stack, so the last one on top is the first one that can come out.
+
+2. What element is retrieved from a stack by the pop operation?
+
+	The value ontop of the stack or in other words the last one in.
+
+3. What is the difference between a static stack and a dynamic stack?
+
+	Static stack have pre-allocated size, such as an array and on the other hand dynamic stacks have no pre-defined size so cn ow and shrink and are usually in the form of linked lists.
+
+4. Describe two operations that all stacks perform.
+
+	All stacks perform a push and a pop.
+
+5. Why is the isFull() function needed for a static stack?
+
+	It is needed because if the stack is full you can push anything into the stack and a stack overflow error will occur.
+
+6. Why is there no isFull() function included in the dynamic stack?  Do you think isFull is needed? Why or why not?
+
+	There is none because a dynamic stack has no limitations on its size other than memory. I don't think is full is needed, instead a size of would probably be more helpful since you can never fill a dynamic stack unless it gets too large.
+
+7. The STL stack is considered a container adapter. What does that mean?
+
+	It means that it is a container which can hold data but can adapt to provide a specific interface.
+
+8. Take a look at the intStackClass that can be downloaded under Stack Class Dropbox 
+   
+   Suppose the following operations were performed on an empty stack:
+        push(0);
+        push(9);
+        push(12);
+        push(1);
+   Insert numbers in the following diagram to show what will be stored in the       static stack after the operations have executed.
+
+
+   top of stack     ------
+                   | 1
+                    ------
+                   | 12
+                    ------
+                   | 9
+                    ------
+                   | 0
+  bottom of stack   ------
+
+
+9. Take a look at the intStackClass that can be downloaded under Stack Class Dropbox  
+   
+   Suppose the following operations were performed on an empty stack:
+        push(8);
+        push(7);
+        pop();
+        push(19);
+        push(21);
+        pop();
+   Insert numbers in the following diagram to show what will be stored in 
+   the static stack after the operations have executed.
+
+   top of stack     ------
+                   | 19
+                    ------
+                   | 8
+                    ------
+                   | replace with your answer
+                    ------
+                   | replace with your answer
+   bottom of stack   ------
+
+10.  Indicate whether a stack would be suitable data structure for each of the following applications:
+
+(a) A program to evaluate arithmetic expressions according to the specific order of operators.
+Your answer:=> Yes
+
+
+(b) A bank simulation of its teller operation to see how waiting times would be affected by adding another teller.
+Your answer:=>  No
+
+
+(c) A program to receive data that are to be saved and processed in the reverse order.
+Your answer:=> Yes
+
+
+(d) An address book to be maintained
+Your answer:=> No
+
+
+(e) A word processor to have a PF key that causes the preceding command to be redisplayed.  Every time the user presses the PF key, the program shows the command that preceded the one currently displayed.
+Your answer:=> Yes
+
+
+(f) A dictionary of words used by a spelling checker to be built and maintained.
+Your answer:=> No
+
+
+(g) A program to keep track of patients as they check into a medical clinic assigning patients to doctors on a first come, first served basis.
+Your answer:=> No 
+
+
+(h) A data structure used to keep track of the return addresses for nested functions while a program is running.
+Your answer:=> Yes
+
+
+11.  Write your own version of a class template that will create a dynamic stack of any data type.  Write a driver program to test the template class.  Use the IntStackClass as a guide.
+
+
+// Specification for the IntStack class
+#include <string>
+
+class IntStack
+{
+private:
+	std::string *stackArray;  // Pointer to the stack array
+	int stackSize;    // The stack size
+	int top;          // Indicates the top of the stack
+
+public:
+	// Constructor
+	IntStack(int);
+
+	// Copy constructor
+	IntStack(const IntStack &);
+
+	// Destructor
+	~IntStack();
+
+	// Stack operations
+	void push(std::string);
+	void pop(std::string &);
+	bool isFull() const;
+	bool isEmpty() const;
+};
+
+// Implementation for the IntStack class
+#include <iostream>
+#include <string>
+#include "IntStack.h"
+using namespace std;
+
+//***********************************************
+// Constructor                                  *
+// This constructor creates an empty stack. The *
+// size parameter is the size of the stack.     *
+//***********************************************
+
+IntStack::IntStack(int size)
+{
+	stackArray = new std::string[size];
+	stackSize = size;
+	top = -1;
+}
+
+//***********************************************
+// Copy constructor                             *
+//***********************************************
+
+IntStack::IntStack(const IntStack &obj)
+{
+	// Create the stack array.
+	if (obj.stackSize > 0)
+		stackArray = new std::string[obj.stackSize];
+	else
+		stackArray = nullptr;
+
+	// Copy the stackSize attribute.
+	stackSize = obj.stackSize;
+
+	// Copy the stack contents.
+	for (int count = 0; count < stackSize; count++)
+		stackArray[count] = obj.stackArray[count];
+
+	// Set the top of the stack.
+	top = obj.top;
+}
+
+//***********************************************
+// Destructor                                   *
+//***********************************************
+
+IntStack::~IntStack()
+{
+	delete[] stackArray;
+}
+
+//*************************************************
+// Member function push pushes the argument onto  *
+// the stack.                                     *
+//*************************************************
+
+void IntStack::push(string num)
+{
+	if (isFull())
+	{
+		cout << "The stack is full.\n";
+	}
+	else
+	{
+		top++;
+		stackArray[top] = num;
+	}
+}
+
+//****************************************************
+// Member function pop pops the value at the top     *
+// of the stack off, and copies it into the variable *
+// passed as an argument.                            *
+//****************************************************
+
+void IntStack::pop(string &num)
+{
+	if (isEmpty())
+	{
+		cout << "The stack is empty.\n";
+	}
+	else
+	{
+		num = stackArray[top];
+		top--;
+	}
+}
+
+//***************************************************
+// Member function isFull returns true if the stack *
+// is full, or false otherwise.                     *
+//***************************************************
+
+bool IntStack::isFull() const
+{
+	bool status;
+
+	if (top == stackSize - 1)
+		status = true;
+	else
+		status = false;
+
+	return status;
+}
+
+//****************************************************
+// Member funciton isEmpty returns true if the stack *
+// is empty, or false otherwise.                     *
+//****************************************************
+
+bool IntStack::isEmpty() const
+{
+	bool status;
+
+	if (top == -1)
+		status = true;
+	else
+		status = false;
+
+	return status;
+}
+
+//Driver program
+
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include "IntStack.h"
+
+using namespace std;
+
+int main(){
+
+	IntStack newStack = IntStack(5);
+	string catchString = "";
+
+	newStack.push("1");
+	newStack.push("abc");
+	newStack.push("2.3");
+	newStack.push("Anything");
+
+	while (!newStack.isEmpty()){
+
+		newStack.pop(catchString);
+		cout << "Popped:" << catchString << endl << endl;
+	}
+
+	cin.ignore();
+	cin.ignore();
+
+}

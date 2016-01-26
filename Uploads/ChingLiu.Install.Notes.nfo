@@ -1,0 +1,76 @@
+ ษอฤออออฤอป         ษฤหฤฤหฤฤฤหอฤฤฤอหอฤฤฤอหฤฤฤหฤฤหฤป         ษอฤออออฤอป
+ ศฮ       ศอฤอออออฤอผอสออสอออสอออออสอออออสอออสออสอศอฤอออออฤอผ       ฮผ
+  บ Shared By ChingLiu   BE HAPPY !                                 บ  
+  บ                                                                 บ
+  บ                            ฐ ฐ ฒฒฐฑ                             บ  
+  บ                      ฒÛÛÛ ฑฐฑ ฑฐ  ฒฑÛฑ                          บ  
+  บ                     ÛÛÛÛÛฒ ฐ  ฐÛฐฐ ฐฐฐÛÛ   ฐฑ                   บ  
+  บ                    ฑÛÛÛฒฑฐ ฐ ฒ  ฑ     ฐฒÛฑฑฒฑÛฑ                 บ  
+  บ                    ÛÛÛฑฐฐฑ  ฑฑ     ฐฑ ฐÛÛฑฐ ฒฒÛ                 บ  
+  บ                   ฑฑÛฑ ฑฑ ฐ ฒ   ฐฐฑ  ฐ ฒÛ    ฑÛ                 บ  
+  บ                 ÛÛฒÛÛฑ ฐ ฐฐ ฑ    ฑ     ฐÛฑ ฐฐฐÛฒ                บ  
+  บ               ÛฑÛฒÛÛÛ   ฑ  ฐฑ    ฐ  ฐ   ฒ ฐฐฐฒ ฑฑฑ              บ  
+  บ              ÛÛฒฒÛÛฒÛÛฑฐฑฐฑฑฐ     ฑฐ ฐ ฑÛ   ฑ  ฑฑÛ              บ  
+  บ              ÛÛฑฒÛฑฒÛÛฐ ฑÛฒÛÛ   ฐÛÛÛฑฑ ÛÛฑฐ   ฑ ฐÛ              บ  
+  บ              ÛÛÛÛÛÛฒÛÛฑ ÛฐÛÛÛ    ÛÛฑฑฐÛÛฑ   ฑ  ฐฐÛ              บ  
+  บ               ÛÛÛÛฑÛฒÛÛฑฐÛÛ       ฐÛฑฐÛฑ   ฑ ฑ ฐÛ               บ  
+  บ               ฐÛÛÛฑฒฒÛÛฐ             ÛÛ ฐฐ   ฑ ÛÛ               บ  
+  บ                ÛÛÛÛÛฒÛฑ   ฐÛÛÛÛÛÛ     Û  ฑฒ ฐฑฑÛ                บ  
+  บ                 ÛฑÛÛÛÛ   ÛÛÛÛÛÛÛÛÛ    Û ฐ    ฒÛฑ                บ  
+  บ                  ÛÛÛ Û      ÛÛÛฒ       Û ฐ  ฑÛ                  บ  
+  บ                      ฑ       Ûฐ        Û   ฑÛ                   บ  
+  บ                      ฐ       Û       ฐ  ÛÛÛÛฒ                   บ  
+  บ                       ฒฐ   ฐฐÛฑฐฐ  ฑฑ     ÛÛÛฐ                  บ  
+  บ                       ฐÛ    ฒ ฐ            ÛÛ                   บ  
+  บ                      Û                     ÛÛฑ                  บ  
+  บ                                                                 บ
+  ศอฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอออออออออออออออฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอผ  
+
+   0. Close internet connection
+
+   1. Install the application by double clicking on "Setup.msi" in
+      "Setup Live 9.1.3 x64" folder. (to default directory)
+
+   2. Copy "Ableton LivePatch [io].exe" from "Patch" folder and paste it
+      in to the installation folder. It is generally :
+
+      C:\ProgramData\Ableton\Live 9 Suite\Program (Attention: ProgramData)
+
+   3. RUN the patch and click on patch button.
+
+   4. Patch will create the file "Authorize.auz" in same folder. Double
+      click on the "Authorize.auz" to ACTIVATE and run the application.
+
+   5. Open your internet connection.
+
+    a. Go to Options - Preferences - File Folder - Max Application
+       and download the latest version of Max (if you like)
+
+    - It will take you to Ableton's website, and ask you to either log in, or register.
+      Put a random (valid) e-mail address and a password and it will let you in.
+    - The next page is the Serial Number page - DO NOT put any serial number there...
+      just wait. The download will start automatically on this page.
+
+    b. Go to Options - Preferences - Licenses Maintenance 
+       and turn off "Get software update" and "Send user data"
+ 
+   6. Check the links in "Ableton Suite 9 Live Packs Download Links.txt" (28 Gb.)
+    
+ 
+   Thanks to io 
+
+   [ChingLiu] July 5, 2014
+
+ ศอฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอออออออออออออออฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอผ 
+
+ - There are so many fake torrents around with my name. More than 33,500
+   I share my files only 4 torrent sites below ;
+
+  http://kickass.to/user/ChingLiu/uploads/
+  https://thepiratebay.se/user/Ching_Liu/
+  http://extratorrent.cc/profile/ChingLiu/torrents/
+  http://1337x.org/user/ChingLiu/
+
+ ษผหอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออหศป
+ ศฮผ        PLEASE SEED  -  PLEASE SHARE  -  PLEASE UPLOAD         ศฮผ
+  ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ

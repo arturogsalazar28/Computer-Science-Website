@@ -1,0 +1,55 @@
+Add-in Express Registrator Log File: 05/07/2014 19:21:19
+
+Installation directory: C:\Program Files\WinZip\
+Registrator version: 6.5.3057.0
+Operating System: Microsoft Professional (build 9200), 64-bit
+Process Owner: System
+Command Line: "C:\Program Files\WinZip\adxregistrator.exe" /uninstall="WZOutlok.dll" /privileges=admin
+Run 'As Administrator': Yes
+Process Elevated: Yes
+Integrity Level: System
+UAC (User Account Control): On
+--------------------------------------------------------------
+19:21:19 0296 Starting the add-in unregistration process.
+19:21:19 0296 Loading mscoree.dll
+19:21:19 0296 Success.
+19:21:19 0296 .NET Framework installation directory: 
+19:21:19 0296 The latest version of .NET Framework: 'v4.0.30319'
+19:21:19 0296 Loading CLR: v4.0.30319.
+19:21:19 0296 Calling CLRCreateInstance method.
+19:21:19 0296 Success.
+19:21:19 0296 Calling GetRuntime method.
+19:21:19 0296 Success.
+19:21:19 0296 Checking if the hosting API of .NET Framework v4.0 beta is installed.
+19:21:19 0296 The hosting API is up to date.
+19:21:19 0296 Calling GetInterface method for the CorRuntimeHost interface.
+19:21:19 0296 Success.
+19:21:19 0296 Starting CLR...
+19:21:19 0296 Success.
+19:21:19 0296 Getting the CLR version.
+19:21:19 0296 The CLR v4.0.30319 has been initialized successfully.
+19:21:19 0296 Creating a new domain setup.
+19:21:19 0296 Success.
+19:21:19 0296 Getting the add-in directory.
+19:21:19 0296 Success. The directory is 'C:\Program Files\WinZip\'
+19:21:19 0296 The 'shadow copy' is disabled.
+19:21:19 0296 Creating a new application domain.
+19:21:19 0296 Success.
+19:21:19 0296 Getting the base directory for the domain.
+19:21:19 0296 Success. The directory is 'C:\Program Files\WinZip\'.
+19:21:19 0296 Searching for the Add-in Express core library.
+19:21:19 0296 Success. The 'AddinExpress.MSO.2005.dll' file is found.
+19:21:19 0296 Creating an instance of the 'AddinExpress.Deployment.ADXRegistrator' class.
+19:21:19 0296 Assembly identity is 'AddinExpress.MSO.2005'.
+19:21:19 0296 Success.
+19:21:19 0296 Unwrapping the instance of the 'AddinExpress.Deployment.ADXRegistrator' class.
+19:21:19 0296 Success.
+19:21:19 0296 Calling the managed unregistration procedure.
+19:21:19 0764 Connecting to the application domain of the Add-in Express loader.
+19:21:19 0764 Success.
+19:21:19 0764 Loading the 'wzoutlok.dll' assembly.
+19:21:19 0764 Success.
+19:21:19 0764 Unregistering the 'wzoutlok.dll' assembly (administrator).
+19:21:19 0764 The ' wzoutlok.dll' assembly has been unregistered successfully.
+19:21:19 0296 Success.
+19:21:19 0296 The add-in unregistration process is completed with HRESULT = 0.

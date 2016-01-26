@@ -1,0 +1,71 @@
+Autodesk 3ds Max 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/3DSMAX/DLM/Autodesk_3ds_Max_2015_EFGJKS_Win_64bit_dlm.sfx.exe
+
+Autodesk 3ds Max Design 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/MAXDES/DLM/Autodesk_3ds_Max_Design_2015_EFGJKS_Win_64bit_dlm.sfx.exe
+
+Autodesk Maya 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/MAYA/DLM/Autodesk_Maya_2015_dlm.sfx.exe
+
+AUTOCAD 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ACD/DLM/AutoCAD_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ACD/DLM/AutoCAD_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD ELECTRICAL 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ACAD_E/DLM/AutoCAD_Electrical_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ACAD_E/DLM/AutoCAD_Electrical_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD MECHANICAL 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/AMECH_PP/DLM/AutoCAD_Mechanical_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/AMECH_PP/DLM/AutoCAD_Mechanical_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD LT 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ACDLT/DLM/AutoCADLT_2015_SWL_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ACDLT/DLM/AutoCADLT_2015_SWL_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD RASTER DESIGN 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ARDES/DLM/AutoCAD_Raster_Design_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ARDES/DLM/AutoCAD_Raster_Design_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD STRUCTURAL DETAILING 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/STRDET/DLM/AutoCAD_SD_2015_English_Win_64bit_dlm.sfx.exe
+
+Navisworks Manage 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/NAVMAN/DLM/Navisworks_Manage_2015_dlm.sfx.exe
+
+Navisworks Simulate 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/NAVSIM/DLM/Navisworks_Simulate_2015_dlm.sfx.exe
+
+Simulate 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/NAVSIM/DLM/Navisworks_Simulate_2015_dlm.sfx.exe
+
+Autodesk Alias Automotive 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/AUTOST/DLM/Autodesk_AAUTO_2015_English_Win_64bit_dlm.sfx.exe
+
+Autodesk Alias Design 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/DESNST/DLM/Autodesk_ALSDES_2015_English_Win_64bit_dlm.sfx.exe
+
+Autodesk Alias Surface 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/SURFST/DLM/Autodesk_ASURF_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD Plant 3D 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/PLNT3D/DLM/AutoCAD_Plant_3D_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD PNID 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/PNID/DLM/AutoCAD_PNID_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/PNID/DLM/AutoCAD_PNID_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD Raster Design 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ARDES/DLM/AutoCAD_Raster_Design_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ARDES/DLM/AutoCAD_Raster_Design_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD Structural Detailing 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/STRDET/DLM/AutoCAD_SD_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD Architecture 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/ARCHDESK/DLM/AutoCAD_Architecture_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/ARCHDESK/DLM/AutoCAD_Architecture_2015_English_Win_64bit_dlm.sfx.exe
+
+AutoCAD MEP 2015 
+http://trial.autodesk.com/SWDLDNET4/2015/BLDSYS/DLM/AutoCAD_MEP_2015_English_Win_32bit_dlm.sfx.exe
+http://trial.autodesk.com/SWDLDNET4/2015/BLDSYS/DLM/AutoCAD_MEP_2015_English_Win_64bit_dlm.sfx.exe
